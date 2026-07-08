@@ -1,0 +1,19 @@
+{
+  "name": "commit-msg-generator",
+  "version": "1.0.0",
+  "description": "CLI tool that generates conventional commit messages from git diff",
+  "main": "index.js",
+  "bin": {
+    "commit-msg": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["git", "commit", "conventional", "cli"],
+  "author": "Nyox",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2"
+  }
+}
